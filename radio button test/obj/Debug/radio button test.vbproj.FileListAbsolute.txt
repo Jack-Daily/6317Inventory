@@ -9,3 +9,7 @@ C:\Users\jd306127\Desktop\Visual Basic Jack Daily\radio button test\radio button
 C:\Users\jd306127\Desktop\Visual Basic Jack Daily\radio button test\radio button test\obj\Debug\radio button test.xml
 C:\Users\jd306127\Desktop\Visual Basic Jack Daily\radio button test\radio button test\obj\Debug\radio button test.pdb
 C:\Users\jd306127\Desktop\Visual Basic Jack Daily\radio button test\radio button test\bin\Debug\Database1.accdb
+C:\Users\gb304275\Desktop\Inv Repository\6317Inventory\radio button test\bin\Debug\radio button test.exe.config
+C:\Users\gb304275\Desktop\Inv Repository\6317Inventory\radio button test\obj\Debug\radio button test.exe
+C:\Users\gb304275\Desktop\Inv Repository\6317Inventory\radio button test\obj\Debug\radio button test.xml
+C:\Users\gb304275\Desktop\Inv Repository\6317Inventory\radio button test\obj\Debug\radio button test.pdb

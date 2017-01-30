@@ -4,7 +4,7 @@
         '    ' Make the currently selected item the top item in the ListBox.
         '    ListBox1.TopIndex = ListBox1.SelectedIndex
         'End If
-
+        'This is a test
         ''If ListBox1.SelectedIndex = 0 Then
         ''    picBox1.Visible = True
         ''End If
