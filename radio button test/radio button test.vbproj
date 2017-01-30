@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C86662D5-75D1-4B4F-B08F-CBF9D47A7BA8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>radio_button_test.My.MyApplication</StartupObject>
+    <RootNamespace>radio_button_test</RootNamespace>
+    <AssemblyName>radio button test</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>radio button test.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>radio button test.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Database1DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database1DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Database1DataSet.vb">
+      <DependentUpon>Database1DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Database1DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database1DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Database1DataSet.xsc">
+      <DependentUpon>Database1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Database1DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database1DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database1DataSet.xss">
+      <DependentUpon>Database1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Database1DataSet1.xsc">
+      <DependentUpon>Database1DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Database1DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database1DataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database1DataSet1.xss">
+      <DependentUpon>Database1DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\am-2222-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Database1.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\am-0077a-2T.jpg" />
+    <Content Include="Resources\am-0209-2T %281%29.jpg" />
+    <Content Include="Resources\am-0209-2T.jpg" />
+    <Content Include="Resources\am-0212-2T %281%29.jpg" />
+    <Content Include="Resources\am-0212-2T.jpg" />
+    <Content Include="Resources\am-0255-2T %281%29.jpg" />
+    <Content Include="Resources\am-0255-2T.jpg" />
+    <Content Include="Resources\am-0370-2T.jpg" />
+    <Content Include="Resources\am-0516-2T.jpg" />
+    <Content Include="Resources\am-0747-2T %281%29.jpg" />
+    <Content Include="Resources\am-0747-2T.jpg" />
+    <Content Include="Resources\am-0885-2T.jpg" />
+    <Content Include="Resources\am-0985a-2T.jpg" />
+    <Content Include="Resources\am-1015-2T.jpg" />
+    <Content Include="Resources\am-1054-2T.jpg" />
+    <Content Include="Resources\am-1206-2T.jpg" />
+    <Content Include="Resources\am-1221-2T.jpg" />
+    <Content Include="Resources\am-1225-2T.jpg" />
+    <Content Include="Resources\am-1249-2T.jpg" />
+    <Content Include="Resources\am-1253-2T.jpg" />
+    <Content Include="Resources\am-1267-2T.jpg" />
+    <Content Include="Resources\am-1268-2T.jpg" />
+    <Content Include="Resources\am-1277-2T.jpg" />
+    <Content Include="Resources\am-1278-2T.jpg" />
+    <Content Include="Resources\am-2088-2T.jpg" />
+    <Content Include="Resources\am-2182-2T.jpg" />
+    <Content Include="Resources\am-2197-2T.jpg" />
+    <Content Include="Resources\am-2230-2T.jpg" />
+    <Content Include="Resources\am-2234-2T.jpg" />
+    <Content Include="Resources\am-2239-2T.jpg" />
+    <Content Include="Resources\am-2242-2T.jpg" />
+    <Content Include="Resources\am-2243-2T.jpg" />
+    <Content Include="Resources\am-2244-2T.jpg" />
+    <Content Include="Resources\am-2266-2T.jpg" />
+    <Content Include="Resources\am-2267-2T.jpg" />
+    <Content Include="Resources\am-2271-2T.jpg" />
+    <Content Include="Resources\am-2361-2T.jpg" />
+    <Content Include="Resources\am-2904-2T.jpg" />
+    <Content Include="Resources\am-2923-2T.jpg" />
+    <Content Include="Resources\am-2924-2T.jpg" />
+    <Content Include="Resources\am-2939-2T.jpg" />
+    <Content Include="Resources\am-2964a-2T.jpg" />
+    <Content Include="Resources\am-2971-2T.jpg" />
+    <Content Include="Resources\am-3090-057-2T.jpg" />
+    <Content Include="Resources\am-3102-2T.jpg" />
+    <Content Include="Resources\am-3103-2T.jpg" />
+    <Content Include="Resources\am-3154-2T.jpg" />
+    <Content Include="Resources\am-3157-2T.jpg" />
+    <Content Include="Resources\am-3229-2T.jpg" />
+    <Content Include="Resources\am-3322-2T.jpg" />
+    <Content Include="Resources\am-3417-2T.jpg" />
+    <Content Include="Resources\am-Churro-2T.jpg" />
+    <Content Include="Resources\am-higripwheel-2T %281%29.jpg" />
+    <Content Include="Resources\am-higripwheel-2T.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
