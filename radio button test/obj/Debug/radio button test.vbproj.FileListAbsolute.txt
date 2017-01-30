@@ -13,3 +13,7 @@ C:\Users\jd306127\Desktop\JD_Github_Repository\6317Inventory\radio button test\b
 C:\Users\jd306127\Desktop\JD_Github_Repository\6317Inventory\radio button test\obj\Debug\radio button test.exe
 C:\Users\jd306127\Desktop\JD_Github_Repository\6317Inventory\radio button test\obj\Debug\radio button test.xml
 C:\Users\jd306127\Desktop\JD_Github_Repository\6317Inventory\radio button test\obj\Debug\radio button test.pdb
+C:\Users\gb304275\Desktop\Inv Repository\6317Inventory\radio button test\bin\Debug\radio button test.exe.config
+C:\Users\gb304275\Desktop\Inv Repository\6317Inventory\radio button test\obj\Debug\radio button test.exe
+C:\Users\gb304275\Desktop\Inv Repository\6317Inventory\radio button test\obj\Debug\radio button test.xml
+C:\Users\gb304275\Desktop\Inv Repository\6317Inventory\radio button test\obj\Debug\radio button test.pdb
